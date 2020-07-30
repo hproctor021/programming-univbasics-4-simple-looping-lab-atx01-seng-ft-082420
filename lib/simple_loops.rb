@@ -29,7 +29,7 @@ def return_string_array(array)
   counter = 0
   
   while counter < array.length do
-    result = array.to_s.split()
+    puts result = array.to_s.split()
     return result
     counter += 1
   end
